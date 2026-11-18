@@ -2,20 +2,62 @@
 
 Étudiant à l'EDHEC en alternance, je construis des projets en IA appliquée, data et produit.
 Je développe seul, de bout en bout, avec l'ambition de fonder des startups.
-Ici, ce qui est en cours, ce qui fonctionne, et ce que j'ai arrêté, avec les raisons.
+Ici : ce qui est en cours, ce qui fonctionne, et ce que j'ai arrêté, avec les raisons.
 
 > **Summary (EN):** EDHEC work-study student building projects in applied AI, data and product. I build alone, end to end, aiming to found startups. This profile lists what is in progress, what works, and what I stopped and why.
 
-## Projets
+## Mes projets
 
-| Projet | Statut | En bref |
-|---|---|---|
-| **[Kalk](https://github.com/Neemmmooooo/kalk-showcase)** | 🟢 En cours | SaaS d'analyse d'investissement immobilier de niveau professionnel. Je le développe seul, avec un associé expert immobilier qui pilote les modèles financiers. Code privé, vitrine publique. |
-| **[Daemon](https://github.com/Neemmmooooo/second-brain)** | 🟡 Fonctionne, je ne travaille plus dessus | Second cerveau IA : classe mes notes dans une taxonomie fixe, détecte les contradictions, bascule de fournisseur de modèle en cas de panne (Groq → Cerebras). |
-| **[AI Workspace](https://github.com/Neemmmooooo/ai-workspace)** | 🟡 Fonctionne, je ne travaille plus dessus | Espace de chat IA multi-fournisseurs : bascule automatique quand un fournisseur tombe, routage de modèle, clés chiffrées. |
-| **[Meme Alpha](https://github.com/Neemmmooooo/meme-alpha)** | ⏸️ Recherche en pause | Pipeline de recherche quantitative sur les memecoins Solana : collecte on-chain, étiquetage sans biais d'anticipation, simulateur d'exécution. Projet de recherche, pas un conseil financier. |
-| **[ReelHook](https://github.com/Neemmmooooo/reelhook)** | ⚫ Arrêté | Attribution du chiffre d'affaires par contenu Instagram. Arrêté faute de faisabilité (données peu fiables, faible capacité à payer). Post-mortem publié. |
-| **[Synaptic IA](https://github.com/Neemmmooooo/synaptic-ia)** | ⚫ Arrêté | Prédiction de la réponse cérébrale à un contenu pour les marques. Arrêté faute de ressources. Post-mortem publié. |
+<table>
+  <tr>
+    <td width="84" align="center"><img src="assets/logos/kalk.svg" width="64" alt="Kalk"></td>
+    <td>
+      <h3><a href="https://github.com/Neemmmooooo/kalk-showcase">Kalk</a> &nbsp;🟢 <sub>en cours</sub></h3>
+      <b>Objectif :</b> donner aux investisseurs immobiliers des outils d'analyse de niveau professionnel, plus simples à utiliser et plus précis que les tableurs.<br>
+      <b>Où j'en suis :</b> en finalisation, lancement d'une liste d'attente en préparation. Je développe seul le front et le back, avec un associé expert immobilier qui pilote les modèles financiers. Code privé, vitrine publique.
+    </td>
+  </tr>
+  <tr>
+    <td width="84" align="center"><img src="assets/logos/daemon.svg" width="64" alt="Daemon"></td>
+    <td>
+      <h3><a href="https://github.com/Neemmmooooo/second-brain">Daemon</a> &nbsp;🟡 <sub>fonctionne, je ne travaille plus dessus</sub></h3>
+      <b>Objectif :</b> un second cerveau qui range ce que j'apprends sans que j'aie à l'organiser, et qui me le restitue quand je pose une question.<br>
+      <b>Ce qu'il fait :</b> classe les notes dans une taxonomie fixe, les étiquette, signale les contradictions avec ce que je sais déjà, et bascule de fournisseur de modèle en cas de panne (Groq → Cerebras). Les notes restent du markdown dans GitHub, lisible par Obsidian, Claude et l'application web.
+    </td>
+  </tr>
+  <tr>
+    <td width="84" align="center"><img src="assets/logos/ai-workspace.svg" width="64" alt="AI Workspace"></td>
+    <td>
+      <h3><a href="https://github.com/Neemmmooooo/ai-workspace">AI Workspace</a> &nbsp;🟡 <sub>fonctionne, je ne travaille plus dessus</sub></h3>
+      <b>Objectif :</b> parler à n'importe quel modèle de langage sans me soucier de quel fournisseur est disponible.<br>
+      <b>Ce qu'il fait :</b> chat en streaming, 13 fournisseurs derrière une seule couche d'adaptation, bascule automatique quand l'un tombe ou limite le débit, routage du modèle selon la tâche, clés chiffrées. Next.js et Postgres.
+    </td>
+  </tr>
+  <tr>
+    <td width="84" align="center"><img src="assets/logos/meme-alpha.svg" width="64" alt="Meme Alpha"></td>
+    <td>
+      <h3><a href="https://github.com/Neemmmooooo/meme-alpha">Meme Alpha</a> &nbsp;⏸️ <sub>recherche en pause</sub></h3>
+      <b>Objectif :</b> savoir ce que l'on peut affirmer honnêtement sur la continuation des prix des memecoins Solana, avec des données et un modèle d'exécution rigoureux.<br>
+      <b>Ce que c'est :</b> collecte de données on-chain, étiquetage sans biais d'anticipation, simulateur d'exécution validé contre le SDK officiel. Les données collectées sont trop peu nombreuses pour conclure : le projet documente ses limites et ce qu'il faudrait pour aller plus loin. <i>Projet de recherche, pas un conseil financier.</i>
+    </td>
+  </tr>
+  <tr>
+    <td width="84" align="center"><img src="assets/logos/reelhook.png" width="64" alt="ReelHook"></td>
+    <td>
+      <h3><a href="https://github.com/Neemmmooooo/reelhook">ReelHook</a> &nbsp;⚫ <sub>arrêté, post-mortem publié</sub></h3>
+      <b>Objectif :</b> montrer à un créateur ou une petite entreprise quels contenus Instagram lui ont rapporté de l'argent, pas seulement des vues.<br>
+      <b>Pourquoi arrêté :</b> manque de faisabilité. Les données nécessaires étaient peu fiables, les petits comptes avaient peu de capacité à payer, et les grandes marques n'étaient pas intéressées. Enseignement : valider la volonté de payer avant de construire.
+    </td>
+  </tr>
+  <tr>
+    <td width="84" align="center"><img src="assets/logos/synaptic-ia.svg" width="64" alt="Synaptic IA"></td>
+    <td>
+      <h3><a href="https://github.com/Neemmmooooo/synaptic-ia">Synaptic IA</a> &nbsp;⚫ <sub>arrêté, post-mortem publié</sub></h3>
+      <b>Objectif :</b> prédire comment le cerveau humain réagit à un contenu, selon le public (par exemple selon les générations), avant de dépenser en média.<br>
+      <b>Pourquoi arrêté :</b> manque de ressources (capital, technologie, équipe spécialisée), et un acteur majeur a publié un modèle équivalent. Enseignement : évaluer tôt les barrières à l'entrée.
+    </td>
+  </tr>
+</table>
 
 ## Domaines
 

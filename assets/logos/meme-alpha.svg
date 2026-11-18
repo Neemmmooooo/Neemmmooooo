@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="Meme Alpha">
+  <rect width="64" height="64" rx="14" fill="#14151c"/>
+  <polyline points="10,44 20,36 27,40 37,24 45,29 54,16" fill="none" stroke="#e8b04b" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="54" cy="16" r="4.5" fill="#e8b04b"/>
+  <line x1="10" y1="52" x2="54" y2="52" stroke="#4a4d5e" stroke-width="2" stroke-linecap="round"/>
+</svg>
