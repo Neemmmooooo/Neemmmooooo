@@ -19,3 +19,8 @@ I build AI products end to end, and I'm working toward building startups. Right 
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square)
 ![Groq](https://img.shields.io/badge/Groq-F55036?style=flat-square)
 ![Cerebras](https://img.shields.io/badge/Cerebras-1B8A6F?style=flat-square)
+
+## Connect
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alexandre-pierre-8334aa259/)
+[![Email](https://img.shields.io/badge/Email-1B8A6F?style=flat-square&logo=gmail&logoColor=white)](mailto:alexandre.gf.pierre@gmail.com)
