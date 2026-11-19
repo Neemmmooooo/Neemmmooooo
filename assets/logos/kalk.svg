@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="Kalk">
+  <rect width="64" height="64" rx="14" fill="#1b1918"/>
+  <g transform="translate(10 10) scale(1.9)" fill="none" stroke="#f5f2ee">
+    <rect x="2.5" y="2.5" width="19" height="19" rx="3.5" stroke-width="1.5"/>
+    <path d="M8 8L8 16M16 8L8 12L16 16" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+</svg>
