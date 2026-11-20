@@ -1,16 +1,42 @@
-### Hi, I'm Alexandre 👋
+<p align="center">
+  <img src="assets/readme/banner.svg" width="100%" alt="Alexandre Pierre. France, EDHEC work-study student. I build applied AI and data products end to end, and I document what I stop.">
+</p>
 
-Work-study student at EDHEC, building in applied AI, data and product.
-I design and ship my projects end to end, with the goal of founding companies.
-This page covers everything I have built: what is live, what is in progress, and what I stopped, and why.
+<p align="center">
+  <a href="https://www.linkedin.com/in/alexandre-pierre-8334aa259/"><img src="assets/readme/btn-linkedin.svg" height="44" alt="LinkedIn"></a>
+  <a href="mailto:alexandre.gf.pierre@gmail.com"><img src="assets/readme/btn-email.svg" height="44" alt="Email me"></a>
+  <a href="https://daemon-tech.fr"><img src="assets/readme/btn-daemon.svg" height="44" alt="daemon-tech.fr"></a>
+</p>
 
-## How I work
+I am a work-study student at EDHEC building **applied AI, data and product systems end to end**: framing the problem, designing the architecture, writing the code, shipping it, and writing an honest review when a project should stop. My current focus is **Kalk**, a real-estate analysis platform I build with a partner who leads the financial models. Everything else on this page either runs today or ended with a documented decision.
 
-- **Start from a concrete problem**, then build the smallest system that genuinely solves it.
-- **De-risk the hardest assumptions first** (willingness to pay, data access, barriers to entry) before polishing anything.
-- **Document what I stop.** A project ended deliberately is worth more than one left to drift.
+## 🛠️ What I'm building
 
-## Projects
+<p align="center">
+  <img src="assets/readme/card-kalk.svg" width="49%" alt="Kalk: professional-grade deal analysis for real-estate investors. In progress.">
+  <a href="https://github.com/Neemmmooooo/second-brain"><img src="assets/readme/card-daemon.svg" width="49%" alt="Daemon: a self-organising second brain. Live."></a>
+  <a href="https://github.com/Neemmmooooo/ai-workspace"><img src="assets/readme/card-ai-workspace.svg" width="49%" alt="AI Workspace: one workspace for any model, with automatic provider failover. Live."></a>
+  <img src="assets/readme/card-meme-alpha.svg" width="49%" alt="Meme Alpha: quantitative research on Solana memecoins. On hold.">
+  <img src="assets/readme/card-reelhook.svg" width="49%" alt="ReelHook: content-to-revenue attribution for Instagram. Stopped, not feasible.">
+  <img src="assets/readme/card-synaptic-ia.svg" width="49%" alt="Synaptic IA: predicting brain response to content. Stopped, insufficient resources.">
+</p>
+
+<p align="center">
+  Explore: <a href="https://github.com/Neemmmooooo/second-brain">Daemon</a> · <a href="https://github.com/Neemmmooooo/ai-workspace">AI Workspace</a> · the other repositories will open progressively
+</p>
+
+## 📊 By the numbers
+
+<p align="center">
+  <img src="assets/readme/stats.svg" width="100%" alt="6 projects built end to end · 13 model providers behind one adapter · 3,000 curve states matched to the official SDK · 26.5K on-chain trades collected and decoded · 2 of 2 stopped projects with a written post-mortem">
+</p>
+
+> [!IMPORTANT]
+> **How I work.** I start from a concrete problem and build the smallest system that genuinely solves it. I de-risk the hardest assumptions first (willingness to pay, data access, barriers to entry) before polishing anything. And I document what I stop: a project ended deliberately is worth more than one left to drift.
+
+<details>
+<summary><b>Context, goals and status for each project</b></summary>
+<br>
 
 <table>
   <tr>
@@ -69,55 +95,50 @@ This page covers everything I have built: what is live, what is in progress, and
   </tr>
 </table>
 
-## Focus areas
+</details>
 
-Applied AI · Data · Full-stack development · Product
-
-## Tools & technologies
+## 🧰 Tools & technologies
 
 **AI & agents**
-![Claude](https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=claude&logoColor=white)
-![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=claudecode&logoColor=white)
-![ChatGPT](https://img.shields.io/badge/ChatGPT-412991?style=flat-square)
-![Codex](https://img.shields.io/badge/Codex-412991?style=flat-square)
-![MCP](https://img.shields.io/badge/MCP-333333?style=flat-square)
-![Groq](https://img.shields.io/badge/Groq-F55036?style=flat-square)
-![Cerebras](https://img.shields.io/badge/Cerebras-1B8A6F?style=flat-square)
+![Claude](https://img.shields.io/badge/Claude-252420?style=flat-square&logo=claude&logoColor=FAF8F2)
+![Claude Code](https://img.shields.io/badge/Claude_Code-252420?style=flat-square&logo=claudecode&logoColor=FAF8F2)
+![ChatGPT](https://img.shields.io/badge/ChatGPT-252420?style=flat-square)
+![Codex](https://img.shields.io/badge/Codex-252420?style=flat-square)
+![MCP](https://img.shields.io/badge/MCP-252420?style=flat-square)
+![Groq](https://img.shields.io/badge/Groq-252420?style=flat-square)
+![Cerebras](https://img.shields.io/badge/Cerebras-252420?style=flat-square)
 
 **Development**
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-333333?style=flat-square&logo=nextdotjs&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white)
-![GSAP](https://img.shields.io/badge/GSAP-0AE448?style=flat-square&logo=greensock&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-252420?style=flat-square&logo=typescript&logoColor=FAF8F2)
+![JavaScript](https://img.shields.io/badge/JavaScript-252420?style=flat-square&logo=javascript&logoColor=FAF8F2)
+![Python](https://img.shields.io/badge/Python-252420?style=flat-square&logo=python&logoColor=FAF8F2)
+![React](https://img.shields.io/badge/React-252420?style=flat-square&logo=react&logoColor=FAF8F2)
+![Next.js](https://img.shields.io/badge/Next.js-252420?style=flat-square&logo=nextdotjs&logoColor=FAF8F2)
+![FastAPI](https://img.shields.io/badge/FastAPI-252420?style=flat-square&logo=fastapi&logoColor=FAF8F2)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-252420?style=flat-square&logo=tailwindcss&logoColor=FAF8F2)
+![Three.js](https://img.shields.io/badge/Three.js-252420?style=flat-square&logo=threedotjs&logoColor=FAF8F2)
+![GSAP](https://img.shields.io/badge/GSAP-252420?style=flat-square&logo=greensock&logoColor=FAF8F2)
 
 **Data & quality**
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Drizzle](https://img.shields.io/badge/Drizzle_ORM-C5F74F?style=flat-square&logo=drizzle&logoColor=black)
-![Polars](https://img.shields.io/badge/Polars-CD792C?style=flat-square&logo=polars&logoColor=white)
-![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black)
-![Parquet](https://img.shields.io/badge/Parquet-50ABF1?style=flat-square&logo=apacheparquet&logoColor=white)
-![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
-![uv](https://img.shields.io/badge/uv-DE5FE9?style=flat-square&logo=uv&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-252420?style=flat-square&logo=postgresql&logoColor=FAF8F2)
+![Drizzle](https://img.shields.io/badge/Drizzle_ORM-252420?style=flat-square&logo=drizzle&logoColor=FAF8F2)
+![Polars](https://img.shields.io/badge/Polars-252420?style=flat-square&logo=polars&logoColor=FAF8F2)
+![DuckDB](https://img.shields.io/badge/DuckDB-252420?style=flat-square&logo=duckdb&logoColor=FAF8F2)
+![Parquet](https://img.shields.io/badge/Parquet-252420?style=flat-square&logo=apacheparquet&logoColor=FAF8F2)
+![pytest](https://img.shields.io/badge/pytest-252420?style=flat-square&logo=pytest&logoColor=FAF8F2)
+![uv](https://img.shields.io/badge/uv-252420?style=flat-square&logo=uv&logoColor=FAF8F2)
 
 **Deployment & product**
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-![Fly.io](https://img.shields.io/badge/Fly.io-8B5CF6?style=flat-square&logo=flydotio&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-252420?style=flat-square&logo=github&logoColor=FAF8F2)
+![Vercel](https://img.shields.io/badge/Vercel-252420?style=flat-square&logo=vercel&logoColor=FAF8F2)
+![Fly.io](https://img.shields.io/badge/Fly.io-252420?style=flat-square&logo=flydotio&logoColor=FAF8F2)
+![Supabase](https://img.shields.io/badge/Supabase-252420?style=flat-square&logo=supabase&logoColor=FAF8F2)
+![Docker](https://img.shields.io/badge/Docker-252420?style=flat-square&logo=docker&logoColor=FAF8F2)
+![Stripe](https://img.shields.io/badge/Stripe-252420?style=flat-square&logo=stripe&logoColor=FAF8F2)
 
 **Creative & knowledge management**
-![Blender](https://img.shields.io/badge/Blender-E87D0D?style=flat-square&logo=blender&logoColor=white)
-![Obsidian](https://img.shields.io/badge/Obsidian-7C3AED?style=flat-square&logo=obsidian&logoColor=white)
-![Markdown](https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white)
+![Blender](https://img.shields.io/badge/Blender-252420?style=flat-square&logo=blender&logoColor=FAF8F2)
+![Obsidian](https://img.shields.io/badge/Obsidian-252420?style=flat-square&logo=obsidian&logoColor=FAF8F2)
+![Markdown](https://img.shields.io/badge/Markdown-252420?style=flat-square&logo=markdown&logoColor=FAF8F2)
 
-## Contact
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alexandre-pierre-8334aa259/)
-[![Email](https://img.shields.io/badge/Email-1B8A6F?style=flat-square&logo=gmail&logoColor=white)](mailto:alexandre.gf.pierre@gmail.com)
+<sub>Focus areas: applied AI · data · full-stack development · product</sub>
