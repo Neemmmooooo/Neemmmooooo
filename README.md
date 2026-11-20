@@ -3,9 +3,9 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/alexandre-pierre-8334aa259/"><img src="assets/readme/btn-linkedin.svg" height="44" alt="LinkedIn"></a>
-  <a href="mailto:alexandre.gf.pierre@gmail.com"><img src="assets/readme/btn-email.svg" height="44" alt="Email me"></a>
-  <a href="https://daemon-tech.fr"><img src="assets/readme/btn-daemon.svg" height="44" alt="daemon-tech.fr"></a>
+  <a href="https://www.linkedin.com/in/alexandre-pierre-8334aa259/"><img src="assets/readme/btn-linkedin.svg" height="38" alt="LinkedIn"></a>
+  <a href="mailto:alexandre.gf.pierre@gmail.com"><img src="assets/readme/btn-email.svg" height="38" alt="Email me"></a>
+  <a href="https://daemon-tech.fr"><img src="assets/readme/btn-daemon.svg" height="38" alt="daemon-tech.fr"></a>
 </p>
 
 I am a work-study student at EDHEC building **applied AI, data and product systems end to end**: framing the problem, designing the architecture, writing the code, shipping it, and writing an honest review when a project should stop. My current focus is **Kalk**, a real-estate analysis platform I build with a partner who leads the financial models. Everything else on this page either runs today or ended with a documented decision.
@@ -22,7 +22,7 @@ I am a work-study student at EDHEC building **applied AI, data and product syste
 </p>
 
 <p align="center">
-  Explore: <a href="https://github.com/Neemmmooooo/second-brain">Daemon</a> · <a href="https://github.com/Neemmmooooo/ai-workspace">AI Workspace</a> · the other repositories will open progressively
+  Explore: <a href="https://github.com/Neemmmooooo/second-brain">Daemon</a> · <a href="https://github.com/Neemmmooooo/ai-workspace">AI Workspace</a> · more repositories coming soon
 </p>
 
 ## 📊 By the numbers
@@ -99,7 +99,7 @@ I am a work-study student at EDHEC building **applied AI, data and product syste
 
 ## 🧰 Tools & technologies
 
-**AI & agents**
+**AI & agents**<br>
 ![Claude](https://img.shields.io/badge/Claude-252420?style=flat-square&logo=claude&logoColor=FAF8F2)
 ![Claude Code](https://img.shields.io/badge/Claude_Code-252420?style=flat-square&logo=claudecode&logoColor=FAF8F2)
 ![ChatGPT](https://img.shields.io/badge/ChatGPT-252420?style=flat-square)
@@ -108,7 +108,7 @@ I am a work-study student at EDHEC building **applied AI, data and product syste
 ![Groq](https://img.shields.io/badge/Groq-252420?style=flat-square)
 ![Cerebras](https://img.shields.io/badge/Cerebras-252420?style=flat-square)
 
-**Development**
+**Development**<br>
 ![TypeScript](https://img.shields.io/badge/TypeScript-252420?style=flat-square&logo=typescript&logoColor=FAF8F2)
 ![JavaScript](https://img.shields.io/badge/JavaScript-252420?style=flat-square&logo=javascript&logoColor=FAF8F2)
 ![Python](https://img.shields.io/badge/Python-252420?style=flat-square&logo=python&logoColor=FAF8F2)
@@ -119,7 +119,7 @@ I am a work-study student at EDHEC building **applied AI, data and product syste
 ![Three.js](https://img.shields.io/badge/Three.js-252420?style=flat-square&logo=threedotjs&logoColor=FAF8F2)
 ![GSAP](https://img.shields.io/badge/GSAP-252420?style=flat-square&logo=greensock&logoColor=FAF8F2)
 
-**Data & quality**
+**Data & quality**<br>
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-252420?style=flat-square&logo=postgresql&logoColor=FAF8F2)
 ![Drizzle](https://img.shields.io/badge/Drizzle_ORM-252420?style=flat-square&logo=drizzle&logoColor=FAF8F2)
 ![Polars](https://img.shields.io/badge/Polars-252420?style=flat-square&logo=polars&logoColor=FAF8F2)
@@ -128,7 +128,7 @@ I am a work-study student at EDHEC building **applied AI, data and product syste
 ![pytest](https://img.shields.io/badge/pytest-252420?style=flat-square&logo=pytest&logoColor=FAF8F2)
 ![uv](https://img.shields.io/badge/uv-252420?style=flat-square&logo=uv&logoColor=FAF8F2)
 
-**Deployment & product**
+**Deployment & product**<br>
 ![GitHub](https://img.shields.io/badge/GitHub-252420?style=flat-square&logo=github&logoColor=FAF8F2)
 ![Vercel](https://img.shields.io/badge/Vercel-252420?style=flat-square&logo=vercel&logoColor=FAF8F2)
 ![Fly.io](https://img.shields.io/badge/Fly.io-252420?style=flat-square&logo=flydotio&logoColor=FAF8F2)
@@ -136,7 +136,7 @@ I am a work-study student at EDHEC building **applied AI, data and product syste
 ![Docker](https://img.shields.io/badge/Docker-252420?style=flat-square&logo=docker&logoColor=FAF8F2)
 ![Stripe](https://img.shields.io/badge/Stripe-252420?style=flat-square&logo=stripe&logoColor=FAF8F2)
 
-**Creative & knowledge management**
+**Creative & knowledge management**<br>
 ![Blender](https://img.shields.io/badge/Blender-252420?style=flat-square&logo=blender&logoColor=FAF8F2)
 ![Obsidian](https://img.shields.io/badge/Obsidian-252420?style=flat-square&logo=obsidian&logoColor=FAF8F2)
 ![Markdown](https://img.shields.io/badge/Markdown-252420?style=flat-square&logo=markdown&logoColor=FAF8F2)
