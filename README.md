@@ -1,83 +1,81 @@
-### Bonjour, je suis Alexandre 👋
+### Hi, I'm Alexandre 👋
 
-Étudiant à l'EDHEC en alternance, je construis des projets en IA appliquée, data et produit.
-Je développe seul, de bout en bout, avec l'ambition de fonder des startups.
-Ici : tout ce que j'ai lancé, ce qui est en cours, ce qui fonctionne, et ce que j'ai arrêté, avec les raisons.
+Work-study student at EDHEC, building in applied AI, data and product.
+I design and ship my projects end to end, with the goal of founding companies.
+This page covers everything I have built: what is live, what is in progress, and what I stopped, and why.
 
-> **Summary (EN):** EDHEC work-study student building projects in applied AI, data and product. I build alone, end to end, aiming to found startups. Below: everything I started, what is in progress, what works, and what I stopped and why, followed by the tools I use.
+## How I work
 
-## Ce qui relie mes projets
+- **Start from a concrete problem**, then build the smallest system that genuinely solves it.
+- **De-risk the hardest assumptions first** (willingness to pay, data access, barriers to entry) before polishing anything.
+- **Document what I stop.** A project ended deliberately is worth more than one left to drift.
 
-- **Je pars d'un problème concret**, puis je construis le plus petit système qui le résout vraiment.
-- **Je teste ce qui me fait peur en premier** (volonté de payer, accès aux données, barrières à l'entrée) avant de perfectionner.
-- **Je documente aussi ce que j'arrête.** Un projet abandonné en connaissance de cause vaut mieux qu'un projet qui traîne.
-
-## Mes projets
+## Projects
 
 <table>
   <tr>
     <td width="84" align="center"><img src="assets/logos/kalk.svg" width="64" alt="Kalk"></td>
     <td>
-      <h3>Kalk &nbsp;🟢 <sub>en cours</sub></h3>
-      <b>Contexte :</b> analyser une opération immobilière se fait encore dans des tableurs faits main, difficiles à vérifier et à partager. Les outils professionnels sont complexes ou réservés aux grandes structures.<br>
-      <b>Objectif :</b> donner aux investisseurs des outils d'analyse de niveau professionnel, plus simples à utiliser et plus précis.<br>
-      <b>Où j'en suis :</b> en finalisation, lancement d'une liste d'attente en préparation. Je développe seul le front et le back, avec un associé expert immobilier qui pilote les modèles financiers. Code privé, vitrine publique à venir.
+      <h3>Kalk &nbsp;🟢 <sub>In progress</sub></h3>
+      <b>Context:</b> real-estate deal analysis still relies on hand-built spreadsheets that are hard to audit and share, while professional tools are either complex or reserved for large firms.<br>
+      <b>Goal:</b> give investors professional-grade analysis tools that are simpler to use and more accurate.<br>
+      <b>Status:</b> final stage of development, with a waitlist launch in preparation. I build the full stack on my own; a partner with real-estate expertise leads the financial models. Private codebase, public showcase coming soon.
     </td>
   </tr>
   <tr>
     <td width="84" align="center"><img src="assets/logos/daemon.svg" width="64" alt="Daemon"></td>
     <td>
-      <h3><a href="https://github.com/Neemmmooooo/second-brain">Daemon</a> &nbsp;🟡 <sub>fonctionne, je ne travaille plus dessus</sub></h3>
-      <b>Contexte :</b> ce que j'apprends (cours, projets, lectures) se disperse, et je retrouve mal ce que je sais déjà.<br>
-      <b>Objectif :</b> un second cerveau qui range tout seul et me restitue l'information quand je pose une question.<br>
-      <b>Ce que j'ai construit :</b> un architecte de connaissances qui classe les notes dans une taxonomie fixe, les étiquette, signale les contradictions avec ce que je sais déjà et compresse les notes anciennes. Il bascule de fournisseur de modèle en cas de panne (Groq → Cerebras). Les notes restent du markdown dans GitHub, lisible par Obsidian, Claude et l'application web.
+      <h3><a href="https://github.com/Neemmmooooo/second-brain">Daemon</a> &nbsp;🟡 <sub>Live · no longer actively developed</sub></h3>
+      <b>Context:</b> what I learn (courses, projects, reading) ends up scattered, and I struggle to retrieve what I already know.<br>
+      <b>Goal:</b> a second brain that organises itself and surfaces the right information when I ask a question.<br>
+      <b>What I built:</b> an AI knowledge architect that files notes into a fixed taxonomy, tags them, flags contradictions with existing knowledge and compresses older notes. It fails over between model providers during outages (Groq → Cerebras). Notes remain plain Markdown in GitHub, readable by Obsidian, Claude and the web app.
     </td>
   </tr>
   <tr>
     <td width="84" align="center"><img src="assets/logos/ai-workspace.svg" width="64" alt="AI Workspace"></td>
     <td>
-      <h3><a href="https://github.com/Neemmmooooo/ai-workspace">AI Workspace</a> &nbsp;🟡 <sub>fonctionne, je ne travaille plus dessus</sub></h3>
-      <b>Contexte :</b> chaque fournisseur de modèles a son interface, ses quotas et ses pannes. Changer d'outil en pleine tâche casse le fil.<br>
-      <b>Objectif :</b> parler à n'importe quel modèle sans me soucier de quel fournisseur est disponible.<br>
-      <b>Ce que j'ai construit :</b> un espace de chat en streaming avec 13 fournisseurs derrière une seule couche d'adaptation, une bascule automatique quand l'un tombe ou limite le débit, un routage du modèle selon la tâche et des clés chiffrées. Next.js et Postgres.
+      <h3><a href="https://github.com/Neemmmooooo/ai-workspace">AI Workspace</a> &nbsp;🟡 <sub>Live · no longer actively developed</sub></h3>
+      <b>Context:</b> every model provider has its own interface, quotas and outages, and switching tools mid-task breaks the flow.<br>
+      <b>Goal:</b> work with any model without worrying about which provider is available.<br>
+      <b>What I built:</b> a streaming chat workspace with 13 providers behind a single adapter layer, automatic failover on outages or rate limits, task-based model routing and encrypted API keys. Built with Next.js and Postgres.
     </td>
   </tr>
   <tr>
     <td width="84" align="center"><img src="assets/logos/meme-alpha.svg" width="64" alt="Meme Alpha"></td>
     <td>
-      <h3>Meme Alpha &nbsp;⏸️ <sub>recherche en pause</sub></h3>
-      <b>Contexte :</b> les analyses publiques de memecoins supposent des entrées irréalistes au prix du lancement, utilisent de l'information future et ignorent les coûts.<br>
-      <b>Objectif :</b> savoir ce que l'on peut affirmer honnêtement sur la continuation des prix des memecoins Solana, avec des données et un modèle d'exécution rigoureux.<br>
-      <b>Ce que j'ai construit :</b> une collecte de données on-chain, des indicateurs de momentum, un étiquetage sans biais d'anticipation et un simulateur d'exécution validé contre le SDK officiel. Les données collectées sont trop peu nombreuses pour conclure : le projet documente ses limites et ce qu'il faudrait pour aller plus loin. <i>Projet de recherche, pas un conseil financier.</i> Dépôt public à venir.
+      <h3>Meme Alpha &nbsp;⏸️ <sub>Research on hold</sub></h3>
+      <b>Context:</b> public memecoin analyses assume unrealistic entries at the launch price, leak future information into their indicators and ignore trading costs.<br>
+      <b>Goal:</b> determine what can honestly be said about price continuation in Solana memecoins, using rigorous data and a realistic execution model.<br>
+      <b>What I built:</b> an on-chain data collector, momentum indicators, labelling free of look-ahead bias and an execution simulator validated against the official SDK. The dataset is still too small to draw conclusions, so the project documents its limitations and what it would take to go further. <i>Research project, not financial advice.</i> Public repository coming soon.
     </td>
   </tr>
   <tr>
     <td width="84" align="center"><img src="assets/logos/reelhook.png" width="64" alt="ReelHook"></td>
     <td>
-      <h3>ReelHook &nbsp;⚫ <sub>arrêté, post-mortem à venir en public</sub></h3>
-      <b>Contexte :</b> les outils Instagram planifient ou génèrent du contenu, mais aucun ne dit quel contenu a rapporté de l'argent.<br>
-      <b>Objectif :</b> relier chaque contenu à ses messages, ses appels, ses ventes et son chiffre d'affaires.<br>
-      <b>Pourquoi arrêté :</b> manque de faisabilité. Les données nécessaires étaient peu fiables, les petits comptes avaient peu de capacité à payer et les grandes marques n'étaient pas intéressées. <b>Enseignement :</b> valider la volonté de payer et l'accès aux données avant de construire.
+      <h3>ReelHook &nbsp;⚫ <sub>Discontinued · public post-mortem coming soon</sub></h3>
+      <b>Context:</b> Instagram tools schedule or generate content, but none of them shows which content actually drives revenue.<br>
+      <b>Goal:</b> attribute every piece of content to the messages, calls, sales and revenue it generates.<br>
+      <b>Why it stopped:</b> not feasible. The required data was unreliable, small accounts had limited ability to pay, and large brands were not interested. <b>Lesson:</b> validate willingness to pay and data access before building.
     </td>
   </tr>
   <tr>
     <td width="84" align="center"><img src="assets/logos/synaptic-ia.svg" width="64" alt="Synaptic IA"></td>
     <td>
-      <h3>Synaptic IA &nbsp;⚫ <sub>arrêté, post-mortem à venir en public</sub></h3>
-      <b>Contexte :</b> les marques jugent un contenu à l'intuition, en focus group ou par des études d'IRM à plusieurs dizaines de milliers d'euros.<br>
-      <b>Objectif :</b> prédire comment le cerveau réagit à un contenu, selon le public (par exemple selon les générations), avant de dépenser en média.<br>
-      <b>Pourquoi arrêté :</b> manque de ressources (capital, technologie, équipe spécialisée), et un acteur majeur a publié un modèle équivalent. <b>Enseignement :</b> évaluer tôt les barrières à l'entrée et le paysage concurrentiel.
+      <h3>Synaptic IA &nbsp;⚫ <sub>Discontinued · public post-mortem coming soon</sub></h3>
+      <b>Context:</b> brands judge content on intuition, through focus groups, or with fMRI studies costing tens of thousands of euros.<br>
+      <b>Goal:</b> predict how the brain responds to a piece of content across audiences (for example, by generation) before any media spend.<br>
+      <b>Why it stopped:</b> insufficient resources (capital, technology, specialised team), and a major player released an equivalent model. <b>Lesson:</b> assess barriers to entry and the competitive landscape early.
     </td>
   </tr>
 </table>
 
-## Domaines
+## Focus areas
 
-IA appliquée · Data · Développement full-stack · Produit
+Applied AI · Data · Full-stack development · Product
 
-## Les outils que j'utilise
+## Tools & technologies
 
-**IA et agents**
+**AI & agents**
 ![Claude](https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=claude&logoColor=white)
 ![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=claudecode&logoColor=white)
 ![ChatGPT](https://img.shields.io/badge/ChatGPT-412991?style=flat-square)
@@ -86,7 +84,7 @@ IA appliquée · Data · Développement full-stack · Produit
 ![Groq](https://img.shields.io/badge/Groq-F55036?style=flat-square)
 ![Cerebras](https://img.shields.io/badge/Cerebras-1B8A6F?style=flat-square)
 
-**Développement**
+**Development**
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -97,7 +95,7 @@ IA appliquée · Data · Développement full-stack · Produit
 ![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white)
 ![GSAP](https://img.shields.io/badge/GSAP-0AE448?style=flat-square&logo=greensock&logoColor=black)
 
-**Data et qualité**
+**Data & quality**
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Drizzle](https://img.shields.io/badge/Drizzle_ORM-C5F74F?style=flat-square&logo=drizzle&logoColor=black)
 ![Polars](https://img.shields.io/badge/Polars-CD792C?style=flat-square&logo=polars&logoColor=white)
@@ -106,7 +104,7 @@ IA appliquée · Data · Développement full-stack · Produit
 ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
 ![uv](https://img.shields.io/badge/uv-DE5FE9?style=flat-square&logo=uv&logoColor=white)
 
-**Déploiement et produit**
+**Deployment & product**
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 ![Fly.io](https://img.shields.io/badge/Fly.io-8B5CF6?style=flat-square&logo=flydotio&logoColor=white)
@@ -114,7 +112,7 @@ IA appliquée · Data · Développement full-stack · Produit
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white)
 
-**Création et connaissances**
+**Creative & knowledge management**
 ![Blender](https://img.shields.io/badge/Blender-E87D0D?style=flat-square&logo=blender&logoColor=white)
 ![Obsidian](https://img.shields.io/badge/Obsidian-7C3AED?style=flat-square&logo=obsidian&logoColor=white)
 ![Markdown](https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white)
