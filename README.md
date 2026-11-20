@@ -17,8 +17,6 @@ I am a work-study student at EDHEC building **applied AI, data and product syste
   <a href="https://github.com/Neemmmooooo/second-brain"><img src="assets/readme/card-daemon.svg" width="49%" alt="Daemon: a self-organising second brain. Live."></a>
   <a href="https://github.com/Neemmmooooo/ai-workspace"><img src="assets/readme/card-ai-workspace.svg" width="49%" alt="AI Workspace: one workspace for any model, with automatic provider failover. Live."></a>
   <img src="assets/readme/card-meme-alpha.svg" width="49%" alt="Meme Alpha: quantitative research on Solana memecoins. On hold.">
-  <img src="assets/readme/card-reelhook.svg" width="49%" alt="ReelHook: content-to-revenue attribution for Instagram. Stopped, not feasible.">
-  <img src="assets/readme/card-synaptic-ia.svg" width="49%" alt="Synaptic IA: predicting brain response to content. Stopped, insufficient resources.">
 </p>
 
 <p align="center">
